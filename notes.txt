@@ -12,3 +12,5 @@ npm install @mui/material @emotion/react @emotion/styled
 npm install @mui/icons-material
 
 npm install --save --legacy-peer-deps @material-ui/core
+
+npm install -D tailwindcss postcss autoprefixer
