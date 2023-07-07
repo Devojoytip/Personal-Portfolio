@@ -38,6 +38,8 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import whatsapp from "./whatsapp.png";
+import financetracker from "./financetracker.png";
 
 export {
   dp_logo,
@@ -75,6 +77,8 @@ export {
   starbucks,
   tesla,
   carrent,
+  financetracker,
+  whatsapp,
   jobit,
   tripguide,
 };

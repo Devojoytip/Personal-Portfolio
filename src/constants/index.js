@@ -28,6 +28,8 @@ import {
     tesla,
     shopify,
     carrent,
+    financetracker,
+    whatsapp,
     jobit,
     tripguide,
     threejs,
@@ -222,9 +224,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "WhatsApp Clone",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A Web-based WhatsApp Clone that allows real-time messaging between the users and supports file upload of all types.",
         tags: [
             {
                 name: "react",
@@ -235,33 +237,33 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "nodejs",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: whatsapp,
+        source_code_link: "https://github.com/Devojoytip/WhatsApp_Clone",
     },
     {
-        name: "Job IT",
+        name: "Web Finance Tracker",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Web application that enables users to keep a track of their expenses and incomes by storing all information and constructing illustrative graph of their financial activities.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "mongodb",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "nodejs",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: financetracker,
+        source_code_link: "https://github.com/Devojoytip/Web_Finance_Tracker",
     },
     {
         name: "Trip Guide",
@@ -269,15 +271,15 @@ const projects = [
             "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
         tags: [
             {
-                name: "nextjs",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "mongodb",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "nodejs",
                 color: "pink-text-gradient",
             },
         ],
