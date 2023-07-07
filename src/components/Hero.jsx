@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import HomeIcon from '@mui/icons-material/Home';
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -13,11 +13,12 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
-
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Devojoyti</span>
-            <div></div>
+            <div>
+
+            </div>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I'm a 4th year CSE Student <br className='sm:block hidden' />
