@@ -44,6 +44,8 @@ import linkedin from "./linkedin.png";
 import github from "./github.png";
 import leetcode from "./leetcode.png";
 
+import myresume from "./Resume.pdf";
+
 export {
   dp_logo,
   logo,
@@ -86,4 +88,5 @@ export {
   whatsapp,
   jobit,
   tripguide,
+  myresume
 };
