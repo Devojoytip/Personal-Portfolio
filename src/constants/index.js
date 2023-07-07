@@ -33,6 +33,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    github,
+    linkedin,
+    leetcode
 } from "../assets";
 
 export const navLinks = [
@@ -68,6 +71,20 @@ const services = [
         icon: creator,
     },
 ];
+
+const socials = [
+    {
+        name: "linkedin",
+        icon: linkedin,
+    },
+    {
+        name: "github",
+        icon: github,
+    },
+    {
+        name: "leetcode",
+        icon: leetcode,
+    }];
 
 const technologies = [
     {
@@ -288,4 +305,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, socials };
