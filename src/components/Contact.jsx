@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
+import { socials } from "../constants";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -66,6 +67,20 @@ const Contact = () => {
       );
   };
 
+  const getProfileLink = (technology) => {
+    // Redirect to the appropriate social media website
+    switch (technology.name) {
+      case 'linkedin':
+        return 'https://www.linkedin.com/in/devojoyti-pal-22632b1b8/';
+      case 'github':
+        return 'https://github.com/Devojoytip/';
+      case 'leetcode':
+        return 'https://leetcode.com/DevojoytiPal/';
+      default:
+        break;
+    }
+  };
+
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
@@ -74,8 +89,18 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
+
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <div className='w-100 flex flex-wrap gap-1' >
+        {socials.map((technology) => (
+          <div className='w-10 h-10' key={technology.name} >
+            <a href={`${getProfileLink(technology)}`} target="_blank" >
+              <img src={technology.icon} />
+            </a>
+          </div>
+        ))}
+      </div>
 
         <form
           ref={formRef}
