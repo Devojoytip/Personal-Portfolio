@@ -80,7 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following are the projects which I have developed using my skills.
+          Following are my best 3 projects which I have developed using my skills.
           The projects are based on Web-Development using NodeJS and React.
         </motion.p>
       </div>
