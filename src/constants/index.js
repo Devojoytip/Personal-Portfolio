@@ -6,7 +6,7 @@ import {
     cpp,
     java,
     javascript,
-    typescript,
+    connectify,
     html,
     css,
     reactjs,
@@ -50,10 +50,10 @@ export const navLinks = [
         id: "works",
         title: "Work",
     },
-    // {
-    //     id: "resume",
-    //     title: "Resume",
-    // },
+    {
+        id: "resume",
+        title: "Resume",
+    },
     {
         id: "contact",
         title: "Contact",
@@ -307,7 +307,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: connectify,
         source_code_link: "https://github.com/Devojoytip/Connectify",
     },
     {

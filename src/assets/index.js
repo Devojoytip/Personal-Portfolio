@@ -37,6 +37,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import connectify from "./connectify.png";
 import whatsapp from "./whatsapp.png";
 import financetracker from "./financetracker.png";
 import keep from "./keep.png";
@@ -85,6 +86,7 @@ export {
   meta,
   shopify,
   starbucks,
+  connectify,
   tesla,
   carrent,
   financetracker,
