@@ -31,6 +31,9 @@ import {
     financetracker,
     whatsapp,
     jobit,
+    zoom,
+    keep,
+    portfolio,
     tripguide,
     threejs,
     github,
@@ -287,9 +290,9 @@ const projects = [
         source_code_link: "https://github.com/Devojoytip/Web_Finance_Tracker",
     },
     {
-        name: "Trip Guide",
+        name: "Connectify",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Creating a MERN social media application using React.js, Node.js, and MongoDB.The Project incorporates React Hooks, Context API, Functional React Components, Node.js REST API, File Upload, JWT and more.",
         tags: [
             {
                 name: "react",
@@ -305,7 +308,70 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Devojoytip/Connectify",
+    },
+    {
+        name: "Google Keep Clone",
+        description:
+            "Cloning Google Keep using React.js and Material UI. The project allows users to create notes with title and description, allows them to delete, archive, restore and permanently discard their notes.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mui",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: keep,
+        source_code_link: "https://github.com/Devojoytip/Google_Keep_Clone",
+    },
+    {
+        name: "Zoom Clone",
+        description:
+            "Creating a Zoom Clone using Node.js, Express.js, Peer.js and Socket.io. The project allows users to create and join video chat rooms.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: zoom,
+        source_code_link: "https://github.com/Devojoytip/Zoom_Clone",
+    },
+    {
+        name: "Personal Portfolio",
+        description:
+            "A 3D Portfolio Website built using React.js, Material UI and Three.js. The project allows users to view my projects, skills, experiences, resume and contact me.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "threejs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mui",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: portfolio,
+        source_code_link: "https://github.com/Devojoytip/Devojoyti_Portfolio",
     },
 ];
 

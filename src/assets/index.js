@@ -39,6 +39,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import whatsapp from "./whatsapp.png";
 import financetracker from "./financetracker.png";
+import keep from "./keep.png";
+import zoom from "./zoom.jpeg";
+import portfolio from "./portfolio.png";
 
 import linkedin from "./linkedin.png";
 import github from "./github.png";
@@ -88,5 +91,8 @@ export {
   whatsapp,
   jobit,
   tripguide,
+  keep,
+  zoom,
+  portfolio,
   myresume
 };
