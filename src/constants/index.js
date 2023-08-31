@@ -7,6 +7,7 @@ import {
     java,
     javascript,
     connectify,
+    crypto,
     html,
     css,
     reactjs,
@@ -248,16 +249,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "WhatsApp Clone",
+        name: "CoinTrackr.net",
         description:
-            "A Web-based WhatsApp Clone that allows real-time messaging between the users and supports file upload of all types.",
+            "A React based Crypt Tracker website for traders to track cryptocurrency on the go, it has many coins to choose from with perfect line chart of each of them in different timeframes, made using GoinGecko API.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "mui",
                 color: "green-text-gradient",
             },
             {
@@ -265,8 +266,29 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: whatsapp,
-        source_code_link: "https://github.com/Devojoytip/WhatsApp_Clone",
+        image: crypto,
+        source_code_link: "https://github.com/Devojoytip/crypto_tracker",
+    },
+    {
+        name: "Personal Portfolio",
+        description:
+            "A 3D Portfolio Website built using React.js, Material UI and Three.js. The project allows users to view my projects, skills, experiences, resume and contact me.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "threejs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mui",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: portfolio,
+        source_code_link: "https://github.com/Devojoytip/Devojoyti_Portfolio",
     },
     {
         name: "Web Finance Tracker",
@@ -311,16 +333,16 @@ const projects = [
         source_code_link: "https://github.com/Devojoytip/Connectify",
     },
     {
-        name: "Google Keep Clone",
+        name: "WhatsApp Clone",
         description:
-            "Cloning Google Keep using React.js and Material UI. The project allows users to create notes with title and description, allows them to delete, archive, restore and permanently discard their notes.",
+            "A Web-based WhatsApp Clone that allows real-time messaging between the users and supports file upload of all types.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mui",
+                name: "mongodb",
                 color: "green-text-gradient",
             },
             {
@@ -328,8 +350,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: keep,
-        source_code_link: "https://github.com/Devojoytip/Google_Keep_Clone",
+        image: whatsapp,
+        source_code_link: "https://github.com/Devojoytip/WhatsApp_Clone",
     },
     {
         name: "Zoom Clone",
@@ -351,27 +373,6 @@ const projects = [
         ],
         image: zoom,
         source_code_link: "https://github.com/Devojoytip/Zoom_Clone",
-    },
-    {
-        name: "Personal Portfolio",
-        description:
-            "A 3D Portfolio Website built using React.js, Material UI and Three.js. The project allows users to view my projects, skills, experiences, resume and contact me.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "threejs",
-                color: "green-text-gradient",
-            },
-            {
-                name: "mui",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: portfolio,
-        source_code_link: "https://github.com/Devojoytip/Devojoyti_Portfolio",
     },
 ];
 

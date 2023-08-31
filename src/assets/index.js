@@ -42,6 +42,7 @@ import whatsapp from "./whatsapp.png";
 import financetracker from "./financetracker.png";
 import keep from "./keep.png";
 import zoom from "./zoom.jpeg";
+import crypto from "./crypto.png";
 import portfolio from "./portfolio.png";
 
 import linkedin from "./linkedin.png";
@@ -95,6 +96,7 @@ export {
   tripguide,
   keep,
   zoom,
+  crypto,
   portfolio,
   myresume
 };
